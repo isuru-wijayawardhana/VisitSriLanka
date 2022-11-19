@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".East">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:text="East Province"
+        android:textColor="#3F51B5"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="402dp"
+        android:layout_height="291dp"
+        android:src="@drawable/kon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thirukoneswaram Temples"
+        android:textColor="#FF5722"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thirukoneswaram was one of the ancient temples in Sri Lanka. In the 16th century, it had one thousand pillars and esteemed to be one of the richest temples in the South East Asia. It had in its possession large amounts of gold, pearls, precious stones, and silk, which have been endowed over one thousand years. The Temple was demolished by the Portuguese Commander of Army Constantine de Sa de Menzes in 1624 and used the rubbles to build a well fortified Fort to prevent the Port of Trincomalee falling to the rivals. The other destroyed ancient temples are Berndi Kovil, near Avissavela, in 1552, Muneswaram near Chillaw, in 1575, the Vishnu temple at Dondra, in 1588, Thirukatheeswaram, in 1589, and Nallur Kandasamy Kovin, in 1621."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Place"
+    android:background="#FFC55C">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Select Province"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/eastBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/northBtn"
+        app:srcCompat="@drawable/east" />
+
+    <ImageButton
+        android:id="@+id/northBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/north"
+        app:cornerRadius = "30dp"/>
+
+    <ImageButton
+        android:id="@+id/northcenterBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eastBtn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/northcenter"
+        app:cornerRadius = "30dp"/>
+
+    <ImageButton
+        android:id="@+id/northwestBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toEndOf="@+id/eastBtn"
+        app:layout_constraintTop_toBottomOf="@+id/southBtn"
+        app:srcCompat="@drawable/northwest"
+        app:cornerRadius = "30dp"/>
+
+    <ImageButton
+        android:id="@+id/southBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toEndOf="@+id/northBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/south"
+        app:cornerRadius = "30dp"/>
+
+    <ImageButton
+        android:id="@+id/uvaBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/northcenterBtn"
+        app:layout_constraintTop_toBottomOf="@+id/northwestBtn"
+        app:srcCompat="@drawable/uva"
+        app:cornerRadius = "30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
